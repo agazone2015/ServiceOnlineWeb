@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "name": "Robert Retford",
+    "street_address": "768 Smmith Road",
+    "city": "Melbourne",
+    "state": "Sunshine State",
+    "zip": "3000",
+    "phone": "890-789-786"
+  },
+    {
+    "id": 2,
+    "name": "Chris Smith",
+    "street_address": "768 Smmith Road",
+    "city": "Melbourne",
+    "state": "Sunshine State",
+    "zip": "3000",
+    "phone": "890-789-786"
+  },
+    {
+    "id": 3,
+    "name": "Anna Jopek",
+    "street_address": "768 Smmith Road",
+    "city": "Melbourne",
+    "state": "Sunshine State",
+    "zip": "3000",
+    "phone": "890-789-786"
+  }
+]

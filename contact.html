@@ -1,0 +1,20 @@
+<h1>This is contact page</h1>
+
+<!-- Example row of columns -->
+<div class="row">
+  <div class="col-lg-12">
+    <h2>Contact</h2>
+        
+    <p>Please email support@computersolutions.com</p>
+     <h3>Locations:</h3>
+    <div ng-repeat="location in locations">
+      
+    <ul class="location">
+       <li>{{location.name}}</li>
+       <li>{{location.street_address}}</li>
+       <li>{{location.city}} {{location.state}} {{location.zip}}</li>
+       <li>{{location.phone}}</li>
+    </ul>
+  </div>
+</div>
+</div>

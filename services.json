@@ -1,0 +1,20 @@
+[
+  {                           
+    "id": 1,
+    "name": "Hardware Repairsss",
+    "description": "AAAAAAAA gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.",
+    "image": "comp.png"
+  },
+   {                           
+    "id": 2,
+    "name": "Virus Removal",
+    "description": "BBBBBB gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.",
+    "image": "comp.png"
+  },
+   {                           
+    "id": 3,
+    "name": "System Tuneup",
+    "description": "CCCCCCC gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.",
+    "image": "comp.png"
+  }
+]
