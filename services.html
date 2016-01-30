@@ -1,22 +1,19 @@
-<h1>This is services page</h1>
-
 <!-- Example row of columns -->
-<div class="row">
-  <div class="col-lg-12">
-    <h2>Services</h2>
-    
-    <div ng-repeat="service in services"> <!-- create DIRECTIVE to the scope services ($scope.services) -->
-    
-    <div class="row service">
-      <div class="col-md-2">
-          <img src="{{service.image}}">  <!-- if we cant see the pic we may need to use ng-src -->
-      </div>
-      <div class="col-md-10">
-          <h3>{{service.name}}</h3>       <!-- expresions linked from / to json objects -->
-          <p>{{service.description}}</p>
-          <a href="contact.html" class="btn btn-primary">Contact Us</a>
+<div class="row about">
+    <div class="col-lg-12">
+    <h2>Available Services</h2>
+
+      <div ng-repeat="service in services"> <!-- create DIRECTIVE to the scope services ($scope.services) -->
+        <div class="row service">
+          <div class="col-md-2">
+               <img src="img/comp.png">  <!-- if we cant see the pic we may need to use ng-src -->
+          </div>
+          <div class="col-md-10">
+              <h3>{{service.name}}</h3>       <!-- expresions linked from / to json objects -->
+              <p>{{service.description}}</p>
+              <a href="#/contact" class="btn btn-primary">Contact Us</a>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-</div>
 </div>
