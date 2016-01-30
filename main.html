@@ -1,24 +1,22 @@
-<h1>This is the main.html</h1>
-
-<!-- Jumbotron -->
 <div class="jumbotron">
-  <div class="row">
-  <div class="col-md-4">
-    <img src="comp.png">
-  </div>
-    <div class="col-md-8">
-      <h1></h1>
-      <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet.</p>
+    <div class="row">
+        <div class="col-md-4">
+            <img src="img/comp.png">
+        </div>
+        <div class="col-md-8">
+            <h1>About Our Services</h1>
+            <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet. Cras justo odio, dapibus ac fa. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet.</p>
+        </div>
     </div>
-   </div>
- </div>
+</div>
 
 <!-- Example row of columns -->
-<div class="row">
-  <div ng-repeat="service in services">
-    <div class="col-lg-4">
-      <h2>{{service.name}}</h2>
-      <p>{{service.description}}</p>
+<div class="row info">
+    <div ng-repeat="service in services">
+        <div class="col-lg-4">
+            <h2 class="stitle">{{service.name}}</h2>
+            <hr>
+            <p class="serv">{{service.description}}</p>
+        </div>
     </div>
-  </div>
 </div>
